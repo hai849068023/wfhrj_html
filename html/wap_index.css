@@ -1,11 +1,15 @@
 .classification{
-	background-color: #FFFFFF;
+	display: inline-flex;
+	justify-content: space-around;
+	background-color: #FEFEFE;
+	line-height:35px;
+	width: 100%;
 	height: 35px;
 }
 .classification a{
 	text-decoration: none;
 	color: #018791;
-	margin-left: 5px;
+	
 }
 .classification-show{
 	font-size: 20px;
@@ -16,13 +20,23 @@
 	background-color: #F4F4F4;
 }
 .page-header{
+	display: inline-flex;
+	justify-content: space-between;
 	height: 60px;
+	width: 100%;
 	background-color: #018791;
 }
+.address{
+	flex-grow:1;
+}
+.search-input{
+	flex-grow:3;
+	padding: 16px 6px;
+}
 .search{
-	margin-left: 10px;
+	margin-right: 10px;
 	border: none;
-	width: auto;
+	width: 80%;
 	height: 30px;
 	line-height: 30px;
 	border-radius: 16px;
@@ -36,17 +50,23 @@
 }
 .page-middle{
 	margin-top: 8px; 
-	height: 250px	;
+	height: 260px	;
 	background-color: #FFFFFF;
 
 }
 .slide{
+	padding-top: 10px;
 	text-align: center;
 }
 .slide img{
 	border-radius: 10px;
-	width: 90%;
+	width: 95%;
 	height: 158px;
+}
+.large-module{
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
 }
 .module{
 	float: left;
@@ -63,15 +83,13 @@
 	height: 50px;
 }
 .page-data{
-	margin-top: 8px;
-	height: 100%;
-	background-color: #FFFFFF;
-}
-.page-data{
 	display: flex;
 	flex-direction: column;
-
+	margin-top: 8px;
+	height: auto;
+	background-color: #FFFFFF;
 }
+
 .good-list{
 	padding-top: 20px;
 	display: flex;
@@ -83,8 +101,35 @@
 .good-list img{
 	border-radius: 10px;
 	width: 95%;
-	height: 175px;
+	height: 168px;
 }
 .good-message{
-	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+.space-home{
+	padding-bottom: 60px;
+}
+.choice-click{
+	display: inline-flex;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    z-index: 9999;
+}
+.bottom-menu{
+	display: inline-flex;
+	flex-direction: column;
+	color: #018791;
+	text-align: center;
 }
