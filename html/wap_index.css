@@ -132,4 +132,8 @@
 	flex-direction: column;
 	color: #018791;
 	text-align: center;
+	padding-top: 3px;
+}
+.class-type{
+	font-size: 15px;
 }
