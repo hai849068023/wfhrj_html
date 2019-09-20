@@ -3,7 +3,6 @@
 <head>
 	<title>首页</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" type="text/css" href="wap_index.css">
 </head>
 <body class="page-body">
@@ -30,8 +29,31 @@
 	<div class="page-middle">
 		<!-- 幻灯片展示 -->
 		<div class="slide">
-			<img src="img/banner1.jpg">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				<a href="">
+				<img src="https://c.runoob.com/wp-content/uploads/2017/01/img_mountains_wide.jpg" style="width:100%">
+				</a>
+			</div>
+
+			<div class="mySlides fade">
+				<a href="">
+				<img src="https://c.runoob.com/wp-content/uploads/2017/01/img_fjords_wide.jpg" style="width:100%">
+				</a>
+			</div>
+
+			<div class="mySlides fade">
+				<a href="">
+				<img src="https://c.runoob.com/wp-content/uploads/2017/01/img_nature_wide.jpg" style="width:100%">
+				</a>
+			</div>
+			<div style="text-align:center" class="changestyle">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
 		</div>
+
 		<div class="large-module">
 			<div class="module">
 				<a target="_blank" href="">
@@ -112,5 +134,7 @@
 			<span style="font-style: 8px;">我的</span>
 		</div>
 	</div>
+
+<script type="text/javascript" src="wap_index.js"></script>
 </body>
 </html>
