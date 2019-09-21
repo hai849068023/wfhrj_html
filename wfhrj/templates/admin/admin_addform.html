@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新增农户</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/css">
+		.forms{
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+		}
+		.forms label{
+			font-size: 18px;
+			margin: 20px 10px 0;
+		}
+		.forms input{
+			BORDER-TOP-STYLE: none; 
+			BORDER-RIGHT-STYLE: none; 
+			BORDER-LEFT-STYLE: none; 
+			height: 30px;
+			margin-top: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.button{
+			background-color: #018791;
+			width: 120px;
+			height: 35px;
+			border-radius: 10px;
+			text-align: center;
+			padding-top: 12px;
+			color: #FFFFFF;
+			margin-left: 33%;
+			margin-top: 50%;
+		}
+	</style>
+</head>
+<body>
+	<!-- 表单内容 -->
+	<form class="forms">
+		<label for="farmername">农户姓名</label>
+		<input type="text" id="farmername" name="farmername">
+		<label for="address">农家地址</label>
+		<input type="text" id="address" name="address">
+		<label for="phone">手机号</label>
+		<input type="text" id="phone" name="phone">
+	</form>
+	<!-- 提交按钮 -->
+	<div class="button">确认新建</div>
+</body>
+</html>

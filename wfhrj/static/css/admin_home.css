@@ -1,0 +1,82 @@
+.operational{
+	display: flex;
+	flex-direction: column;
+	background-color: #018791;
+	height: 120px;
+	color: #FFFFFF;
+	margin: 6px 2px;
+	border-radius: 10px;
+}
+.operational-data{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 18px;
+}
+.operational-detail{
+	display: inline-flex;
+	flex-direction: column;
+}
+.operational-detail a{
+	text-decoration: none;
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.operational-name{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.operational-detail span{
+	font-size: 14px;
+}
+.farmer-message{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 120px;
+	background-color: #FFFFFF;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+.farmer-message1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.farmer-img{
+	display: flex;
+	margin-left: 10px;
+}
+.farmer-img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+}
+.farmer-identity{
+	margin-left: 10px;
+	display: inline-flex;
+	flex-direction: column;
+}
+.farmer-message2{
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.farmer-identity span{
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+.identity-logo{
+	margin-right: 20px;
+	color: #018791;
+}
+.farmers-list-name{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
