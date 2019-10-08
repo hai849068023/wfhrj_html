@@ -10,7 +10,3 @@ admin = Blueprint('admin', __name__)
 def home():
     return render_template('admin/admin_home.html')
 
-
-@admin.route('/farmers')
-def farmer():
-    return render_template('admin/admin_farmers_lists.html')

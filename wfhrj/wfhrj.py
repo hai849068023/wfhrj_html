@@ -1,10 +1,14 @@
-from flask import Flask
-from app.admin.admin import admin
+from app import app, db
+from flask_script import Manager, Server
+from flask_migrate import Migrate, MigrateCommand
+from app.models import admin_models
 
-app = Flask(__name__)
-app.register_blueprint(admin, url_prefix='/admin')
+manager = Manager(app)
+migrate = Migrate(app, db)
 
-# 蓝图注册
+manager.add_command('db', MigrateCommand)
+manager.add_command('runserver', Server(port=8080))
+
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    manager.run()
